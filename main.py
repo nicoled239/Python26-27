@@ -24,7 +24,8 @@ for times in range( num ):
   jump(x,y)
 
 #blue to yellow spiral with polygons
-jump (0, -70)
+bob.setheading(65)
+jump (50, -75)
 for times in range( 256 ):
   c = ( times, times, 100 )
   polygon(4, 350 - times, c )
